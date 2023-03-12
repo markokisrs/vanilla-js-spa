@@ -42,7 +42,7 @@ function setPage(pathname) {
             pathname = "/home";
         }
         let link = document.createElement("link");
-        link.href = pathname + ".css";
+        link.href = "/private/stylesheets" + pathname + ".css";
         link.rel = "stylesheet";
         document.head.appendChild(link);
         loadPage(pathname);
