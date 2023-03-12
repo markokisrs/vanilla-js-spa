@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /vanilla-js-spa/index.html [L,QSA]
+RewriteRule ^(.*)$ /index.html [L,QSA]
