@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	cursor: default;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+nav {
+	padding: 50px 0;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+nav > .grid {
+	display: grid;
+	grid-gap: 50px;
+	justify-content: center;
+	grid-template-columns: auto auto auto;
+}
+
+nav > .grid > a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
